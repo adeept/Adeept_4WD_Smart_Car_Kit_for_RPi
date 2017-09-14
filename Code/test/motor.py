@@ -70,7 +70,11 @@ def loop():
 	while True:
 		motor(1, Dir_backward, 100)
 		time.sleep(5)
-		motor(1, Dir_forward, 100)
+		motor(0, 0, 0)    # stop
+		time.sleep(5)
+		motor(1, Dir_forward, 30)
+		time.sleep(5)
+		motor(0, 0, 0)    # stop
 		time.sleep(5)
 
 def destroy():

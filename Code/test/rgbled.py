@@ -5,9 +5,9 @@ import time
 colors = [0xFF0000, 0x00FF00, 0x0000FF, 0xFFFF00, 0xFF00FF, 0x00FFFF, 0X6F00D2, 0xFF5809]
 
 # REG1: 15,16,18 / RGB2: 19,21,22
-R = 19
-G = 21
-B = 22
+R = 15
+G = 16
+B = 18
 
 def setup(Rpin, Gpin, Bpin):
 	global pins

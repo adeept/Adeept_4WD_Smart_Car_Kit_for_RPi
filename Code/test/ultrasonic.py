@@ -5,8 +5,8 @@ import time
 Tr = 23
 Ec = 24
 
-
 def checkdist():
+	GPIO.setwarnings(False)
 	GPIO.setmode(GPIO.BOARD)
 	GPIO.setup(Tr, GPIO.OUT,initial=GPIO.LOW)
 	GPIO.setup(Ec, GPIO.IN)
